@@ -28,8 +28,8 @@ Ví dụ : Mongodb - NoSQL , mySQL-SQLserver -> SQL
     Ví dụ: collection `user` -> document `user1` (thường là auto id) -> thông tin chi tiết `{name,age,address}` 
         1. getFireStore() -> Trỏ tới cloud firestore firebase của mình
         💥💥💥 Để tương tác với dữ liệu ta cần biết dữ liệu nằm ở đâu ( Luôn thực hiện đầu tiên trước khi dùng `getDoc` -> gán vào 1 biến cho dễ dùng)
-            1.1. collection( `getFirestore()` , `Tên collection` ) <br>
-            1.2. doc( `getFirestore()` , `Tên collection` , `Tên document` ) <br>
+            1.1. collection( `getFirestore()` , `Tên collection` )
+            1.2. doc( `getFirestore()` , `Tên collection` , `Tên document` )
         2. Đọc dữ liệu
            2.1. getDoc( `doc` ) -> Lấy doc có vị trí đã lấy ở trên
            2.2. getDocs( `collection` ) -> Lấy toàn bộ doc của 1 collection
