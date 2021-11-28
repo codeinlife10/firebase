@@ -41,7 +41,7 @@ Ví dụ : Mongodb - NoSQL , mySQL-SQLserver -> SQL
             4.1. deleteDoc( `doc` ) 
             4.2. Delete collection thì không khuyến khích 👩‍⚖️bị tấn công thì toang :)) 
 
-    🧠 Firebase Storage: https://firebase.google.com/docs/storage/web/start
+    🧠 Firebase Storage: https://firebase.google.com/docs/storage/web/start   -> Lưu trữ ảnh,video,...
         1. getStorage() -> Trỏ tới cloud storage của mình thôi 👼🧔
         2. Rõ ràng ta cũng cần biết nơi lưu vào nhỉ !! Đi tìm nó nào :)
             2.1. ref( `getStorage()` , `Tên folder muốn lưu/Tên file sẽ lưu` )
